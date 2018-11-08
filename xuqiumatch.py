@@ -9,7 +9,7 @@ import time
 
 
 danlist = []
-strpath = 'C:\\工作\\月度工作\\2018年\\2018年10月\\JTV18.10.0\\2018分工\\'
+strpath = 'd:\\工作\\月度工作\\2018年\\2018年11月\\SNV18.11.0\\2018分工\\'
 for x in os.listdir(strpath):
     #print(x)
     fname,suffix=os.path.splitext(x)  
